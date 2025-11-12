@@ -3,41 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Likes</title>
     <link rel="stylesheet" href="style.css">
-    <script src="Javascript.js"></script>
+    
 </head>
 <body>
-    <footer> 
-        <h1>Social like</h1>
-    </footer>
-    <div class="contenido">
-        <div class="izquierda">
-            <img class="foto-perfil" src="miza.jpg" width="180px"  alt="">
-            <h2>Misato</h2>
-            <button class="perfil">Mi perfil</button>
-        </div>
-        <div class="derecha">
-            <h2 class="titulo">Últimas publicaciones</h2>
-            <div class="publicacion">
-                <h3>rei</h3>
-                <p>Acabo de configurar este nuevo <a href=""> bot de Discord</a>, cuéntame que opinan ustedes.</p>
-                <button class="like">Like</button>
-            </div>
-            <div class="publicacion">
-                <h3>Asuka</h3>
-                <p>Acabo de leer este <a href="">nuevo comic</a>. Denle un vistazo.</p>
-                <button class="like">Like</button>
-            </div>
-            <div class="publicacion">
-                <h3>shinji</h3>
-                <p>No puedo deja de escuchar este <a href="">album</a>. ¿A quien más le gusta?</p>
-                <button class="like">Like</button>
-            </div>
-        </div>
+     <header>
+    <h1>Social Like</h1>
+  </header>
 
+  <main>
+    <section class="miperfil">
+      <img src="misato.jpg" alt="Misato">
+      <h2>Misato</h2>
+      <button class="miperfil-btn">Mi perfil</button>
+    </section>
 
-    </div>
-    
+    <section class="publicaciones">
+      <h2>Últimas publicaciones</h2>
+
+      <div class="publicacion">
+        <p><strong>Rei</strong><br>
+        Acabo de configurar este nuevo <a href="#">bot de Discord</a>, cuéntame que opinan ustedes.</p>
+        <div class="likes">
+          <span>0 like(s)</span>
+          <button class="like-btn">Like</button>
+        </div>
+      </div>
+
+      <div class="publicacion">
+        <p><strong>Asuka</strong><br>
+        Acabo de leer este <a href="#">nuevo cómic</a>. Denle un vistazo.</p>
+        <div class="likes">
+          <span>0 like(s)</span>
+          <button class="like-btn">Like</button>
+        </div>
+      </div>
+
+      <div class="  publicacion">
+        <p><strong>Shinji</strong><br>
+        No puedo dejar de escuchar este <a href="#">álbum</a>. ¿A quién más le gusta?</p>
+        <div class="likes">
+          <span>0 like(s)</span>
+          <button class="like-btn">Like</button>
+        </div>
+      </div>
+    </section>
+  </main>
+    <script src="Javascript.js"></script>
 </body>
 </html>
